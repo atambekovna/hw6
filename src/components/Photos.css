@@ -1,0 +1,28 @@
+.App{
+    width: 1500px;
+    height: 1700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wrapper{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(3, 3, 12, 0.2);
+}
+
+.title-id-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 290px;
+}
