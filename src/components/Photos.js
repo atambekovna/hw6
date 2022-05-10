@@ -20,7 +20,6 @@ const Photos = () => {
 
     return (
         <>
-        {console.log(photos)}
             {photos.map((photo) => (
                 <PhotosCard key={photo.id}>
                     <div className='title-id-block'>
